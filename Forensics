@@ -1,1 +1,25 @@
 # JOURNEY
+i was given with two resources 
+png form file:-chall
+mp3 form audio file :- instructions.mp3
+audio file stated that the flag is in three parts
+chall was photo that stated the password is in form journey_0000 to journey_9999
+## exiftool chall
+gave me first part of the flag
+
+
+## binwalk -e chall
+extracted files that were hid
+
+
+## there was a zip file which had password encrypted file
+used python to generate a password.txt file which had journey_0000 to journey_9999 every line
+there was .hidden.jpg
+
+
+## strings .hiddden
+gave me base64 encrypted line which was sasndwiched between the waste
+that gave second part
+
+## foremost .hidden
+gave me third part as image
