@@ -1,0 +1,21 @@
+#Welcome
+using inspect option
+
+# Headers
+using burpsuite 
+the website was constantly giving hints through interface
+
+#are you admin
+using burpsuite
+changing cookie user
+
+#themer
+using theme vulnerability
+understood the this thing by chat gpt
+then used ../../falg.txt
+got the flag in inspect section
+
+#themer 2
+using theme vulnerability again
+this time it was more safer but
+then used ..%2f/..%2f/flag.txt
